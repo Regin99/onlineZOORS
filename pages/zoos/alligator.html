@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Alligator</title>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../../node_modules/normalize.css/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a class="logo" href="../../index.html"></a>
+        <nav class="headerNavigation">
+          <ul class="headerNav">
+            <li><a href="../../index.html">About</a></li>
+            <li class="zoosLink"><a href="../zoos/panda.html">Zoos</a></li>
+            <li><a href="../map/map.html">Map</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+            <li>
+              <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp"
+                >Design</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="themeSwitcher"></div>
+        <h1>Online Zoo</h1>
+      </header>
+      <div class="mainPage">
+        <aside class="sideBar">
+          <div class="sideCard arrowCard">
+            <img src="../../assets/icons/upArrow.svg" alt="upArrow" />
+          </div>
+          <div class="sideCard">
+            <a href="panda.html"
+              ><img
+                src="../../assets/images/pandaCircleNotActive.png"
+                alt="panda"
+            /></a>
+          </div>
+          <div class="sideCard">
+            <a href="eagle.html">
+              <img src="../../assets/images/eagleCircle.png" alt="eagle" />
+            </a>
+          </div>
+          <div class="sideCard activeCard">
+            <a href="alligator.html">
+              <img
+                src="../../assets/images/alligatorCircleActive.png"
+                alt="alligator"
+              />
+            </a>
+          </div>
+          <div class="sideCard">
+            <a href="gorilla.html">
+              <img src="../../assets/images/gorillaCircle.png" alt="gorilla"
+            /></a>
+          </div>
+          <div class="sideCard arrowCard downArrow">
+            <img src="../../assets/icons/downArrow.svg" alt="downArrow" />
+          </div>
+        </aside>
+        <div class="mainContent">
+          <div class="mainContentLabel">
+            Alligator and Spoonbill Swamp Webcam
+          </div>
+          <iframe
+            class="liveBroadcast"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/EnxRJii_dp8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="liveBroadcastsLinks">
+            <iframe
+              class="liveBroadcasts"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/EnxRJii_dp8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="liveBroadcasts"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/EnxRJii_dp8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="liveBroadcasts"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/EnxRJii_dp8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="broadcastsSlider">
+            <input class="radioPage" type="radio" name="page" checked />
+            <input class="radioPage" type="radio" name="page" />
+            <input class="radioPage" type="radio" name="page" />
+          </div>
+        </div>
+        <div class="info">
+          <h2>Population:</h2>
+          <p>Roughly 1.25 million</p>
+          <h2>Habitat:</h2>
+          <p>
+            Alligators can be found in slow-moving rivers, ponds, lakes and
+            swamps.
+          </p>
+          <h2>Diet:</h2>
+          <p>
+            Their diets include prey species that are abundant and easily
+            accessible. Juvenile alligators eat primarily insects, amphibians,
+            small fish, and other invertebrates. Adult alligators eat rough
+            fish, snakes, turtles, small mammals, and birds.
+          </p>
+          <div class="feed">
+            <img src="../../assets/images/feed.png" alt="feedbtn" />
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="footerNav">
+          <a href="index.html" class="footerLogo"></a>
+          <ul>
+            <li><a href="../../index.html">About</a></li>
+            <li><a href="../panda.html">Zoos</a></li>
+            <li><a href="../map/map.html">Map</a></li>
+            <li>
+              <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp"
+                >Design</a
+              >
+            </li>
+          </ul>
+          <a href="#"
+            ><img src="../../assets/images/donatevol.png" class="footerButton"
+          /></a>
+        </div>
+        <div class="footerContacts">
+          <div class="contactUs">
+            <div class="contactUsLabel">Contact us</div>
+            <form>
+              <input type="text" class="name" placeholder="Name" />
+              <input type="email" class="email" placeholder="Email" />
+              <fieldset class="message">
+                <legend>Please enter your message</legend>
+                <textarea class="messageText" maxlength="280"></textarea>
+              </fieldset>
+              <div class="agree">
+                <input type="checkbox" class="checkbox" />
+                <label>I agree to the processing of Personal Data</label>
+              </div>
+              <input type="submit" class="sendButton" value="SEND" />
+            </form>
+          </div>
+          <div class="contacts">
+            <div class="contactsLabel">ZOO ONLINE CENTRE</div>
+            <address>
+              <div class="contactsText1">
+                132, Address District, Street Open Daily 10:00 am - 5:00 pm
+              </div>
+              <div class="contactsText2">
+                <a href="tel:(702)163-3433">T(702) 163-3433</a>
+                <a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+              </div>
+            </address>
+            <ul class="contactsLinks">
+              <li class="inst">
+                <a href="http://instagram.com"
+                  ><img src="../../assets/icons/instLight.svg" alt="inst"
+                /></a>
+              </li>
+              <li class="twitter">
+                <a href="http://twitter.com"
+                  ><img src="../../assets/icons/twitterLight.svg" alt="twitter"
+                /></a>
+              </li>
+              <li class="youtube">
+                <a href="http://youtube.com"
+                  ><img src="../../assets/icons/youtubeLight.svg" alt="youtube"
+                /></a>
+              </li>
+              <li class="vk">
+                <a href="http://vk.com"
+                  ><img src="../../assets/icons/vkLight.svg" alt="vk"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="credits">
+          <img src="../../assets/icons/longLine.svg" />
+          <div class="creditsText">©Noora Sagnayeva</div>
+          <div class="creditsText">©RSSchool and ©Yem Digital - 2021</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Zoo</title>
+    <link type="text/css" rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="../online-zoo/pages/landing/style.css" />
+    <script src="../online-zoo/pages/landing/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="pages/landing/script.js"></script>
+  </head>
+  <body>
+    <div>
+      <header>
+        <a class="logo" href="index.html"></a>
+        <nav class="headerNavigation">
+          <ul class="headerNav">
+            <li class="aboutLink"><a href="index.html">About</a></li>
+            <li><a href="pages/zoos/panda.html">Zoos</a></li>
+            <li><a href="pages/map/map.html">Map</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+            <li>
+              <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp"
+                >Design</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="themeSwitcher"></div>
+        <h1>Online Zoo</h1>
+      </header>
+      <section class="firstScreen">
+        <h2 class="watchText">Watch your favorite animal online</h2>
+        <a href="pages/zoos/panda.html"
+          ><img src="assets/images/watchonline.png" class="watchOnlineBtn"
+        /></a>
+
+        <div class="wheel">
+          <div class="line"></div>
+          <div class="eagle"></div>
+          <div class="panda"></div>
+          <div class="gorilla"></div>
+          <div class="alligator"></div>
+          <div class="fox"></div>
+          <div class="sliderCount"></div>
+          <div class="slider"></div>
+        </div>
+        <nav>
+          <ul class="socialLinks">
+            <a href="https://instagram.com"> <li class="inst"></li></a>
+            <a href="https://twitter.com"> <li class="twitter"></li></a>
+            <a href="https://youtube.com"> <li class="youtube"></li></a>
+            <a href="https://vk.com"><li class="vk"></li></a>
+          </ul>
+        </nav>
+      </section>
+      <article class="howItWorks">
+        <h3 class="hIWLabel">How it works?</h3>
+        <p class="hIWText">
+          As a voice for wildlife, we are devastated by the impact of the 2020
+          Australian bushfires on precious species and their habitat, and we are
+          determined to assist in all aspects, including providing veterinary
+          support and raising much-needed emergency funds. Zoo Online saves
+          wildlife and inspires everyone to make conservation a priority in
+          their lives. Animals have the right to a pain-free and happy life.
+          They have equal claim to the resources of this planet, and deserve a
+          life of dignity and compassion.As a voice for wildlife, we are
+          devastated by the impact of the 2020 Australian bushfires on precious
+          species and their habitat.
+        </p>
+        <div class="hIWWheelPicture"></div>
+        <div class="hIWSlider">
+          <div class="hIWWheelSliderCounter">
+            <div class="counter">
+              <div class="counterText">
+                <div class="activeCounterText">
+                  0
+                  <div class="sliderValue slider1">1</div>
+                  /
+                </div>
+                <div class="maxCounterText">04</div>
+              </div>
+              <input oninput="range1(this.value)" type="range" min="0" max="3" value="0" class="counterSlider slide1"></input>
+            </div>
+          </div>
+        </div>
+        <a href="pages/zoos/panda/panda.html"
+          ><img src="assets/images/watchonline.png" class="hIWwatchOnlineBtn"
+        /></a>
+      </article>
+      <article class="whatInspiriesUs">
+        <div class="hIWCard">
+          <div class="hIWCardIcon">
+            <img src="assets/icons/problemSolve1.svg" />
+          </div>
+          <div class="hIWCardLabel">What inspires us?</div>
+          <div class="hIWCardText">
+            As a voice for wildlife, we are devastated by the impact of the 2020
+            Australian bushfires on precious species and their habitat, and we
+            are determined to assist in all aspects.
+          </div>
+        </div>
+        <div class="hIWCard">
+          <div class="hIWCardIcon">
+            <img src="assets/icons/problemSolve2.svg" />
+          </div>
+          <div class="hIWCardLabel">Our mission</div>
+          <div class="hIWCardText">
+            Zoo Online saves wildlife and inspires everyone to make conservation
+            a priority in their lives.
+          </div>
+        </div>
+        <div class="hIWCard">
+          <div class="hIWCardIcon">
+            <img src="assets/icons/problemSolve3.svg" />
+          </div>
+          <div class="hIWCardLabel">What we believe in?</div>
+          <div class="hIWCardText">
+            Animals have the right to a pain-free and happy life. They have
+            equal claim to the resources of this planet, and deserve a life of
+            dignity and compassion.
+          </div>
+        </div>
+      </article>
+      <article class="petsInZoo">
+        <h3 class="pIZLabel">Pets in Zoo</h3>
+        <div class="pIZWheel">
+          <img src="assets/icons/leftArrow.svg" class="pIZWheelLeftArrow" alt="leftarrow"/>
+            <img class="pIZCard" src="assets/images/pizpanda.png" alt="panda">
+            <img class="pIZCard" src="assets/images/pizeagle.png" alt="eagle">
+            <img class="pIZCard" src="assets/images/pizgorilla.png" alt="gorilla">
+            <img class="pIZCard" src="assets/images/pizalligator.png" alt="alligator">
+          <img src="assets/icons/rightArrow.svg" class="pIZWheelRightArrow" alt="rightarrow"/>
+        </div>
+        <div class="pIZSlider">
+          <div class="counter">
+            <div class="counterText">
+              <div class="activeCounterText">
+                0
+                <div class="sliderValue slider2">1</div>
+                /
+              </div>
+              <div class="maxCounterText">08</div>
+            </div>
+            <input oninput="range2(this.value)" type="range" min="0" max="7" value="0" class="counterSlider"></input>
+          </div>
+        </div>
+        <a href="pages/map/map.html"
+          ><img src="assets/images/choose.png" class="pIZButtonChoose"
+        /></a>
+      </article>
+      <article class="payAndFeed">
+        <div class="pAFLabel">Pay and feed</div>
+        <div class="pAFText">
+          The opportunity to easily and naturally (but as often as possible)
+          donate to the needs of animals that you like.
+        </div>
+        <div class="pAFCards">
+          <div class="pAFCard">
+            <img src="assets/icons/visa.svg" />
+          </div>
+          <img src="assets/icons/arrow.svg" alt="arrow" />
+          <div class="pAFCard"><img src="assets/icons/payment.svg" /></div>
+          <img src="assets/icons/arrow.svg" alt="arrow" />
+          <div class="pAFCard"><img src="assets/icons/panda.svg" /></div>
+        </div>
+        <a href="#"
+          ><img src="assets/images/donate.png" class="pAFDonateButton"
+        /></a>
+      </article>
+      <article class="testimonials">
+        <div class="testimonialsLabel">Testimonials</div>
+        <div class="testimonialsWheel">
+          <img src="assets/icons/leftArrow.svg" class="pIZWheelLeftArrow" />
+          <div class="testimonialsCard">
+            <img src="assets/images/testimonialcard.png" />
+          </div>
+          <div class="testimonialsCard">
+            <img src="assets/images/testimonialcard.png" />
+          </div>
+          <img src="assets/icons/rightArrow.svg" class="pIZWheelRightArrow" />
+        </div>
+        <div class="testimonialsSlider">
+          <div class="counter">
+            <div class="counterText">
+              <div class="activeCounterText">
+                0
+                <div class="sliderValue slider3">2</div>
+                /
+              </div>
+              <div class="maxCounterText">08</div>
+            </div>
+            <input oninput="range3(this.value)" type="range" min="0" max="7" value="1" class="counterSlider"></input>
+          </div>
+        </div>
+        <a href="#"
+          ><img src="assets/images/fedback.png" class="testimonialsButton"
+        /></a>
+      </article>
+      <map>
+        <div class="mapLabel">Map</div>
+        <div class="mapImage"></div>
+        <a href="pages/zoos/panda.html"
+          ><img src="assets/images/watchonline.png" class="mapButton"
+        /></a>
+      </map>
+      <footer id="footer">
+        <div class="footerNav">
+          <a href="index.html" class="footerLogo"></a>
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="pages/zoos/panda.html">Zoos</a></li>
+            <li><a href="pages/map/map.html">Map</a></li>
+            <li>
+              <a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp"
+                >Design</a
+              >
+            </li>
+          </ul>
+          <a href="#"
+            ><img src="assets/images/donatevol.png" class="footerButton"
+          /></a>
+        </div>
+        <div class="footerContacts">
+          <div class="contactUs">
+            <div class="contactUsLabel">Contact us</div>
+            <form>
+              <input type="text" class="name" placeholder="Name" />
+              <input type="email" class="email" placeholder="Email" />
+              <fieldset class="message">
+                <legend>Please enter your message</legend>
+                <textarea class="messageText" maxlength="280"></textarea>
+              </fieldset>
+              <div class="agree">
+                <input type="checkbox" class="checkbox" />
+                <label>I agree to the processing of Personal Data</label>
+              </div>
+              <input type="submit" class="sendButton" value="SEND" />
+            </form>
+          </div>
+          <div class="contacts">
+            <div class="contactsLabel">ZOO ONLINE CENTRE</div>
+            <address>
+              <div class="contactsText1">
+                132, Address District, Street Open Daily 10:00 am - 5:00 pm
+              </div>
+              <div class="contactsText2">
+                <a href="tel:(702)163-3433">T(702) 163-3433</a>
+                <a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+              </div>
+            </address>
+            <ul class="contactsLinks">
+              <li class="inst">
+                <a href="http://instagram.com"
+                  ><img src="assets/icons/instLight.svg" alt="inst"
+                /></a>
+              </li>
+              <li class="twitter">
+                <a href="http://twitter.com"
+                  ><img src="assets/icons/twitterLight.svg" alt="twitter"
+                /></a>
+              </li>
+              <li class="youtube">
+                <a href="http://youtube.com"
+                  ><img src="assets/icons/youtubeLight.svg" alt="youtube"
+                /></a>
+              </li>
+              <li class="vk">
+                <a href="http://vk.com"
+                  ><img src="assets/icons/vkLight.svg" alt="vk"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="credits">
+          <img src="assets/icons/creditsline.svg" />
+          <div class="creditsText">©Noora Sagnayeva</div>
+          <div class="creditsText">©RSSchool and ©Yem Digital - 2021</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

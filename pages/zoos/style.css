@@ -1,0 +1,476 @@
+body {
+  margin: 0 0;
+}
+.container {
+  max-width: 1920px;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+h1 {
+  text-indent: -9999px;
+  position: absolute;
+}
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 94px;
+  padding-left: 151px;
+  padding-right: 146px;
+  box-shadow: 0px -4px 8px inset rgba(44, 101, 77, 0.08);
+}
+
+.logo {
+  background-image: url(../../assets/icons/onlineZooIconLight.svg);
+  width: 59px;
+  height: 42px;
+}
+.headerNavigation {
+  width: 573px;
+}
+.headerNav {
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.headerNav li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.headerNav li:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+.zoosLink {
+  font-weight: 900;
+  color: #333333;
+  text-decoration: underline;
+}
+
+.themeSwitcher {
+  width: 54px;
+  height: 30px;
+  background-image: url(../../assets/icons/switcherOff.svg);
+}
+.themeSwitcher:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  width: 54px;
+  height: 30px;
+  background-image: url(../../assets/icons/switcherOn.svg);
+}
+.mainPage {
+  height: 910px;
+  margin-top: 60px;
+  display: flex;
+}
+.sideBar {
+  position: sticky;
+  top: 0;
+  margin-left: 26px;
+  width: 157px;
+  height: 597px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sideCard {
+  width: 108px;
+  height: 108px;
+}
+.sideCard:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+.arrowCard {
+  height: 23px;
+  width: 23px;
+}
+.downArrow {
+  opacity: 0.6;
+}
+.activeCard {
+  width: 157px;
+  height: 157px;
+}
+.activeCard:hover {
+  cursor: default;
+  opacity: 1;
+}
+.activeCard a {
+  cursor: default;
+}
+.mainContent {
+  display: flex;
+  margin-left: 151px;
+  flex-direction: column;
+  width: 790px;
+  height: 750px;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainContentLabel {
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+.liveBroadcast {
+  width: 790px;
+  height: 442px;
+}
+
+.liveBroadcastsLinks {
+  display: flex;
+  justify-content: space-between;
+  height: 141px;
+  width: 790px;
+}
+.liveBroadcasts {
+  width: 246px;
+  height: 141px;
+}
+.broadcastsSlider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 37px;
+  height: 11px;
+}
+.radioPage {
+  -webkit-appearance: none;
+  margin: 0 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+.radioPage:active {
+  -webkit-appearance: none;
+  outline: none;
+}
+.radioPage:checked {
+  -webkit-appearance: none;
+  outline: none;
+  width: 11px;
+  height: 11px;
+  background: linear-gradient(106.89deg, #4bd8b5 -14.32%, #49d6df 100.68%);
+}
+
+.info {
+  margin-left: 30px;
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 380px;
+  height: 299px;
+}
+
+.info h2 {
+  margin: 0 0;
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 900px;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+.info p {
+  margin: 0 0;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #4f4f4f;
+  font-family: "Roboto", sans-serif;
+}
+.feed {
+  width: 194px;
+  height: 55px;
+}
+.feed:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+footer {
+  padding-top: 100px;
+  height: 737px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333333;
+}
+.footerNav {
+  display: flex;
+  width: 1620px;
+  align-items: center;
+}
+
+.footerNav ul {
+  margin-right: 112px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 380px;
+  align-items: center;
+}
+.footerNav li {
+  font-weight: 500;
+  color: #fefefe;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 19px;
+}
+.footerNav li a {
+  color: #fefefe;
+  text-decoration: none;
+}
+.footerNav li:hover {
+  color: #fefefe;
+  text-decoration: underline;
+}
+.footerLogo {
+  margin-right: 766px;
+  background-image: url(../../assets/icons/onlineZooIconDark.svg);
+  width: 61px;
+  height: 42px;
+}
+.footerButton {
+  width: 280px;
+  height: 55px;
+  opacity: 1;
+}
+.footerButton:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.footerContacts {
+  margin-left: -565px;
+  margin-top: 57px;
+  display: flex;
+}
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  height: 347px;
+  width: 383px;
+}
+.contactUsLabel {
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 23.44px;
+  color: #fefefe;
+}
+.contactUs form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  margin-top: 33px;
+  width: 383px;
+  height: 26px;
+  background-color: #333333;
+  border: none;
+  outline: none;
+  border-bottom: solid #bdbdbd 1px;
+}
+.name::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.email {
+  margin-top: 20px;
+  width: 383px;
+  height: 26px;
+  border: none;
+  outline: none;
+  border-bottom: solid #bdbdbd 1px;
+  background-color: #333333;
+}
+.email::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.message {
+  outline: none;
+  margin-top: 20px;
+  width: 383px;
+  height: 115px;
+  background-color: #333333;
+  border: solid #bdbdbd 1px;
+  border-radius: 3px;
+}
+.message legend {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.messageText {
+  outline: none;
+  resize: none;
+  width: 377px;
+  height: 110px;
+  margin-top: -7px;
+  border: none;
+  background-color: #333333;
+}
+
+.agree {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  width: 243px;
+  height: 14px;
+  justify-content: space-between;
+}
+.agree label {
+  width: 224px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: #bdbdbd;
+}
+
+.checkbox {
+  margin: 0 0;
+  -webkit-appearance: none;
+  width: 13px;
+  height: 13px;
+  outline: none;
+  border: solid #bdbdbd 1px;
+  background-color: #333333;
+  border-radius: 1px;
+}
+.checkbox:checked {
+  background-color: #bdbdbd;
+}
+.sendButton {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 260px;
+  width: 108px;
+  font-family: "Roboto", sans-serif;
+  color: #fefefe;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  display: block;
+  height: 16px;
+  background-color: #333333;
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position-x: right;
+  background-position-y: center;
+  background-image: url(../../assets/icons/whiteArrow.svg);
+}
+.sendButton:hover {
+  cursor: pointer;
+}
+
+.contacts {
+  margin-left: 484px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 190px;
+  height: 185px;
+}
+.contactsLabel {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700px;
+  line-height: 16.41px;
+  text-transform: uppercase;
+  color: #fefefe;
+}
+.contactsText1 {
+  margin-top: 35px;
+  width: 190px;
+  line-height: 16.41px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #fefefe;
+}
+
+.contactsText2 {
+  margin-top: 20px;
+  width: 143px;
+  line-height: 16.41px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #fefefe;
+}
+.contactsText1 {
+  text-decoration: none;
+  font-style: normal;
+}
+.contactsText2 a {
+  text-decoration: none;
+  font-style: normal;
+  color: #fefefe;
+}
+
+.contactsLinks {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  height: 20px;
+  width: 125px;
+  padding-left: 0;
+  align-items: center;
+}
+.contactsLinks li {
+  width: 20px;
+}
+.contactsLinks li:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.credits img {
+  margin-top: 60px;
+  margin-bottom: 42px;
+}
+.creditsText {
+  margin-top: 5px;
+  width: 193px;
+  height: 14px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  line-height: 14.06px;
+  color: #bdbdbd;
+}
